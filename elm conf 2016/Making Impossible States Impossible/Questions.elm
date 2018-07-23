@@ -23,6 +23,7 @@ type alias History =
 
 last : List a -> Maybe a
 last =
+    {--ref: https://www.reddit.com/r/elm/comments/4j2fg6/finding_the_last_list_element/ --}
     List.foldl (Just >> always) Nothing
 
 
