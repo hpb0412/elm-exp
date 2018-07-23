@@ -1,4 +1,4 @@
-module SelectedFruits exposing (..)
+module SelectedFruits exposing (SelectedFruits, empty, insert, remove, member)
 
 
 type SelectedFruits

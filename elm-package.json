@@ -3,7 +3,11 @@
   "summary": "helpful summary of your project, less than 80 characters",
   "repository": "https://github.com/user/project.git",
   "license": "BSD3",
-  "source-directories": [".", "./elm europe 2017/The life of a file"],
+  "source-directories": [
+    ".",
+    "./elm conf 2016/Making Impossible States Impossible",
+    "./elm europe 2017/The life of a file"
+  ],
   "exposed-modules": [],
   "dependencies": {
     "elm-lang/core": "5.1.1 <= v < 6.0.0",
